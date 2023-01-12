@@ -6,7 +6,7 @@ export const Styled = {
 		height: 60vh;
 		widht: 100vw;
 		display: flex;
-		flex-direction: row;
+		flex-direction: column;
 		justify-content: center;
 		align-content: center;
 		align-items: center;
@@ -14,7 +14,22 @@ export const Styled = {
 		text-align: center;
 		color: white;
 	`,
+	IconContainer: styled.div`
+		display: flex;
+		flex-direction: row;
+		justify-content: center;
+		align-content: center;
+		align-items: center;
+		justify-items: center;
+		text-align: center;
+		margin-bottom: 1rem;
+	`,
 	Icon: styled.div`
-		margin: 1%;
+		margin: 20%;
+	`,
+	Copyright: styled.div`
+		font-size: 1rem;
+		text-align: center;
+		color: white;
 	`,
 };

@@ -14,6 +14,16 @@ const ScoreTable = (props) => {
 	return (
 		<Styled.Inner id="hashid">
 			<Styled.SectionTitle>Tabla de puntos por evento</Styled.SectionTitle>
+			<Styled.TableRow>
+				<Styled.HeaderTitle>Eventos</Styled.HeaderTitle>
+				<Styled.HeaderPositivePoints>
+					Puntos a favor
+				</Styled.HeaderPositivePoints>
+				<Styled.HeaderNegativePoints>
+					Puntos en contra
+				</Styled.HeaderNegativePoints>
+			</Styled.TableRow>
+
 			{events.map((element) => (
 				<Styled.TableRow key={element.eventName}>
 					<Styled.Title>{element.eventName}</Styled.Title>
@@ -21,6 +31,7 @@ const ScoreTable = (props) => {
 					<Styled.NegativePoints>{element.negative}</Styled.NegativePoints>
 				</Styled.TableRow>
 			))}
+			<Styled.TableRow style={{ borderBottom: "1px solid white" }} />
 		</Styled.Inner>
 	);
 };

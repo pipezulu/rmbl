@@ -10,15 +10,14 @@ import ScoreTable from "../components/ScoreTable/ScoreTable";
 import Footer from "../components/Footer/Footer";
 import styled from "styled-components";
 
-const inter = Inter({ subsets: ["latin"] });
+const Container = styled.div`
+	background-image: url("/background_dots.png");
+
+	border-left: 2px solid black;
+	background-attachment: fixed;
+`;
 
 export default function Home() {
-	const Container = styled.div`
-		background-image: url("/background_dots.png");
-
-		border-left: 2px solid black;
-		background-attachment: fixed;
-	`;
 	return (
 		<>
 			<Head>
