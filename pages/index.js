@@ -8,10 +8,17 @@ import Screen from "../components/Screen/Screen";
 import Video from "../components/Video/Video";
 import ScoreTable from "../components/ScoreTable/ScoreTable";
 import Footer from "../components/Footer/Footer";
+import styled from "styled-components";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export default function Home() {
+	const Container = styled.div`
+		background-image: url("/background_dots.png");
+
+		border-left: 2px solid black;
+		background-attachment: fixed;
+	`;
 	return (
 		<>
 			<Head>
@@ -20,7 +27,7 @@ export default function Home() {
 				<meta name="viewport" content="width=device-width, initial-scale=1" />
 				<link rel="icon" href="/favicon.ico" />
 			</Head>
-			<main className={styles.main}>
+			<Container>
 				<Header />
 
 				{/* <Video /> */}
@@ -29,7 +36,7 @@ export default function Home() {
 				<Screen />
 				<ScoreTable />
 				<Footer />
-			</main>
+			</Container>
 		</>
 	);
 }
