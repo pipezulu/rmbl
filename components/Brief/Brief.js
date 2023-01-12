@@ -1,11 +1,14 @@
+import Link from "next/link.js";
 import React from "react";
 import { Styled } from "./styles.js";
 
 const Brief = (props) => {
 	return (
 		<Styled.Inner>
-			Rmbl es un concurso interactivo de futbol en donde las cosas que pasan en
-			un partido , te suman o restan puntos a vos ya tus contrincantes
+			<p>
+				RMBL es un juego en tiempo real de fútbol, donde los eventos que suceden
+				en un partido suman o restan puntos a los participantes.
+			</p>
 		</Styled.Inner>
 	);
 };

@@ -1,7 +1,7 @@
 const UTILS = {
 	DRAFT: "",
 	COLORS: {
-		BLUE: "#111214",
+		BLUE: "#111214a6",
 		WHITE: "#fff",
 		BLACK: "#232C3E",
 		VIOLET: "#3C317B",

@@ -1,14 +1,24 @@
 import React from "react";
 import { Styled } from "./styles.js";
+import { useState, useEffect } from "react";
 
 const ScoreTable = (props) => {
+	const [events, setEvents] = useState([]);
+	useEffect(() => {
+		fetch(`/api/sheets`)
+			.then((response) => response.json())
+			.then((data) => {
+				setEvents(data);
+			});
+	}, []);
 	return (
-		<Styled.Inner>
-			{points.map((element) => (
-				<Styled.TableRow key={element.name}>
-					<Styled.Title>{element.name}</Styled.Title>
-					<Styled.PositivePoints>{element.Positive}</Styled.PositivePoints>
-					<Styled.NegativePoints>{element.Negative}</Styled.NegativePoints>
+		<Styled.Inner id="hashid">
+			<Styled.SectionTitle>Tabla de puntos por evento</Styled.SectionTitle>
+			{events.map((element) => (
+				<Styled.TableRow key={element.eventName}>
+					<Styled.Title>{element.eventName}</Styled.Title>
+					<Styled.PositivePoints>{element.positive}</Styled.PositivePoints>
+					<Styled.NegativePoints>{element.negative}</Styled.NegativePoints>
 				</Styled.TableRow>
 			))}
 		</Styled.Inner>
@@ -16,36 +26,3 @@ const ScoreTable = (props) => {
 };
 
 export default ScoreTable;
-
-const points = [
-	{
-		name: "foul",
-		Positive: "3",
-		Negative: "5",
-	},
-	{
-		name: "foul",
-		Positive: "3",
-		Negative: "5",
-	},
-	{
-		name: "foul",
-		Positive: "3",
-		Negative: "5",
-	},
-	{
-		name: "foul",
-		Positive: "3",
-		Negative: "5",
-	},
-	{
-		name: "foul",
-		Positive: "3",
-		Negative: "5",
-	},
-	{
-		name: "foul",
-		Positive: "3",
-		Negative: "5",
-	},
-];

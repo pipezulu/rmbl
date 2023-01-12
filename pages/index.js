@@ -22,9 +22,11 @@ export default function Home() {
 			</Head>
 			<main className={styles.main}>
 				<Header />
-				<Brief />
-				<Screen image="/Screen1_figma.png" />
+
 				{/* <Video /> */}
+				<Brief />
+
+				<Screen />
 				<ScoreTable />
 				<Footer />
 			</main>
