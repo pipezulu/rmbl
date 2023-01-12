@@ -3,6 +3,11 @@ import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "../styles/Home.module.css";
 import Header from "../components/Header/Header";
+import Brief from "../components/Brief/Brief";
+import Screen from "../components/Screen/Screen";
+import Video from "../components/Video/Video";
+import ScoreTable from "../components/ScoreTable/ScoreTable";
+import Footer from "../components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -17,6 +22,11 @@ export default function Home() {
 			</Head>
 			<main className={styles.main}>
 				<Header />
+				<Brief />
+				<Screen image="/Screen1_figma.png" />
+				{/* <Video /> */}
+				<ScoreTable />
+				<Footer />
 			</main>
 		</>
 	);

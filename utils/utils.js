@@ -4,7 +4,7 @@ const UTILS = {
 		BLUE: "#111214",
 		WHITE: "#fff",
 		BLACK: "#232C3E",
-		VIOLET: "#6F73D2",
+		VIOLET: "#3C317B",
 		GREEN: "#BAFF29",
 		// CARMINE: "#CA054D",
 		CARMINE: "#B11750",

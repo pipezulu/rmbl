@@ -6,7 +6,7 @@ export const Styled = {
 		height: 100vh;
 		widht: 100vw;
 		display: flex;
-		flex-direction: column;
+		flex-direction: row;
 		justify-content: center;
 		align-content: center;
 		align-items: center;
@@ -15,8 +15,25 @@ export const Styled = {
 		color: white;
 		font-size: 2rem;
 	`,
+	LeftContainer: styled.div`
+		width: 50%;
+		${"" /* background-color: ${UTILS.COLORS.VIOLET}; */}
+		padding: 0 5%;
+		height: 100%;
+		display: flex;
+		flex-direction: row;
+		align-content: center;
+		align-items: center;
+	`,
+	RightContainer: styled.div`
+		width: 50%;
+		display: flex;
+		flex-direction: column;
+		align-content: center;
+		align-items: center;
+	`,
 	MainLine: styled.div`
-		font-size: 4rem;
+		font-size: 6rem;
 		color: ${UTILS.COLORS.WHITE};
 		font-weight: 900;
 		margin-bottom: 2rem;
