@@ -33,6 +33,7 @@ export const Styled = {
 		@media ${UTILS.SCREEN.MOBILE} {
 			width: 100%;
 			height: 60vh;
+			padding-top: 10%;
 			justify-items: center;
 			justify-content: center;
 		}
@@ -43,7 +44,7 @@ export const Styled = {
 		font-weight: 900;
 		margin-bottom: 2rem;
 		@media ${UTILS.SCREEN.MOBILE} {
-			font-size: 3rem;
+			font-size: 2rem;
 			margin-bottom: 0;
 			text-align: center;
 			margin-bottom: 1rem;
@@ -106,6 +107,7 @@ export const Styled = {
 		background-color: ${UTILS.COLORS.VIOLET};
 		@media ${UTILS.SCREEN.MOBILE} {
 			bottom: 5%;
+			font-size: 1.5rem;
 		}
 	`,
 };
