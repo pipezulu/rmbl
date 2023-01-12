@@ -8,7 +8,7 @@ const Screen = (props) => {
 			<Styled.ImageContainer>
 				<Styled.ImageItem>
 					<Image
-						src="/step1.png"
+						src="/Step1.png"
 						alt="Picture of the author"
 						width="300"
 						height="600"
@@ -19,7 +19,7 @@ const Screen = (props) => {
 				</Styled.ImageItem>
 				<Styled.ImageItem>
 					<Image
-						src="/step3.png"
+						src="/Step3.png"
 						alt="Picture of the author"
 						width="300"
 						height="600"
@@ -30,7 +30,7 @@ const Screen = (props) => {
 				</Styled.ImageItem>
 				<Styled.ImageItem>
 					<Image
-						src="/step2.png"
+						src="/Step2.png"
 						alt="Picture of the author"
 						width="300"
 						height="600"
