@@ -2,7 +2,7 @@ import React from "react";
 import { Styled } from "./styles.js";
 import { BsInstagram } from "react-icons/bs";
 import { FaTiktok } from "react-icons/fa";
-
+import { ImTwitter } from "react-icons/im";
 import { AiOutlineTrademark } from "react-icons/ai";
 
 import Link from "next/link.js";
@@ -25,6 +25,11 @@ const Footer = (props) => {
 						passHref={true}
 					>
 						<FaTiktok size={30} color="white" />
+					</Link>
+				</Styled.Icon>
+				<Styled.Icon>
+					<Link href="https://twitter.com/rmbl_live" passHref={true}>
+						<ImTwitter size={30} color="white" />
 					</Link>
 				</Styled.Icon>
 			</Styled.IconContainer>

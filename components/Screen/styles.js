@@ -6,6 +6,8 @@ export const Styled = {
 		display: flex;
 		flex-direction: row;
 		padding: 5%;
+		justify-content: center;
+		justify-items: center;
 	`,
 	ImageContainer: styled.div`
 		width: 100%;
@@ -32,8 +34,12 @@ export const Styled = {
 		${"" /* background-color: rgba(0, 0, 0, 0.4); */}
 		top: 0;
 		color: white;
-		font-size: 1rem;
+		font-size: 0.9rem;
+		text-align: center;
 		padding: 10%;
-		font-weight: 800;
+		font-weight: 700;
+		@media ${UTILS.SCREEN.MOBILE} {
+			font-size: 1rem;
+		}
 	`,
 };

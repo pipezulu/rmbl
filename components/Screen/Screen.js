@@ -25,7 +25,7 @@ const Screen = (props) => {
 						height="600"
 					></Image>
 					<Styled.Description>
-						...pero no del resultado! Elige tus boosters con sabiduría
+						...pero no del resultado! Elige tus boosters con sabiduría.
 					</Styled.Description>
 				</Styled.ImageItem>
 				<Styled.ImageItem>
@@ -40,7 +40,7 @@ const Screen = (props) => {
 					</Styled.Description>
 				</Styled.ImageItem>
 			</Styled.ImageContainer>
-			RiverCampeon1
+
 			{/* <Styled.Description></Styled.Description> */}
 		</Styled.Inner>
 	);
