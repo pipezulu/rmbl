@@ -48,6 +48,8 @@ export const Styled = {
 			margin-bottom: 0;
 			text-align: center;
 			margin-bottom: 1rem;
+			padding-left: 5%;
+			padding-right: 5%;
 		}
 	`,
 	SecondLine: styled.div`
