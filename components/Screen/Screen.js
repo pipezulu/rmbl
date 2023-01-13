@@ -36,10 +36,11 @@ const Screen = (props) => {
 						height="600"
 					></Image>
 					<Styled.Description>
-						Y llega a la cima del Ranking. Los mejores te esperan!
+						Y llega a la cima del Ranking. Los mejores premios te esperan!
 					</Styled.Description>
 				</Styled.ImageItem>
 			</Styled.ImageContainer>
+			RiverCampeon1
 			{/* <Styled.Description></Styled.Description> */}
 		</Styled.Inner>
 	);

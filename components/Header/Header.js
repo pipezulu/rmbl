@@ -34,7 +34,7 @@ const Header = (props) => {
 							height="200"
 						></Image>
 						<Link href="https://rmbl.live" passHref={true}>
-							<Styled.Button>Jugar</Styled.Button>
+							<Styled.Button>Gana</Styled.Button>
 						</Link>
 					</Styled.LogoContainer>
 				</Styled.RightContainer>
