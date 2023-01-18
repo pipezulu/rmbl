@@ -55,7 +55,10 @@ const Header = (props) => {
 					></Image>
 				</Styled.LogoContainer>
 				<Link href="https://rmbl.live" passHref={true}>
-					<Styled.Button>Gana</Styled.Button>
+					<Styled.Button>Jugar</Styled.Button>
+				</Link>
+                                <Link href="https://drive.google.com/drive/folders/1ueb5YZst9ssR98amBNNEbnSOmvXFv5Li" passHref={true}>
+					<Styled.Button>Lite Paper</Styled.Button>
 				</Link>
 			</MobileView>
 		</Styled.Inner>
