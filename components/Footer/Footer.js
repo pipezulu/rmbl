@@ -37,6 +37,9 @@ const Footer = (props) => {
 				RMBL
 				<AiOutlineTrademark />
 			</Styled.Copyright>
+<Link href="https://drive.google.com/drive/folders/1ueb5YZst9ssR98amBNNEbnSOmvXFv5Li" passHref={true}>
+					<Styled.Button>Lite Paper</Styled.Button>
+				</Link>
 		</Styled.Inner>
 	);
 };
