@@ -34,12 +34,10 @@ const Header = (props) => {
 							height="200"
 						></Image>
 						<Link href="https://rmbl.live" passHref={true}>
-							<Styled.Button>Gana</Styled.Button>
+							<Styled.Button>Jugar</Styled.Button>
 						</Link>
 					</Styled.LogoContainer>
-<Link href="https://drive.google.com/drive/folders/1ueb5YZst9ssR98amBNNEbnSOmvXFv5Li" passHref={true}>
-					<Styled.Button>Lite Paper</Styled.Button>
-				</Link>
+
 				</Styled.RightContainer>
 			</BrowserView>
 			<MobileView>
