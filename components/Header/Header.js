@@ -37,9 +37,7 @@ const Header = (props) => {
 							<Styled.Button>Gana</Styled.Button>
 						</Link>
 					</Styled.LogoContainer>
-<Link href="https://drive.google.com/drive/folders/1ueb5YZst9ssR98amBNNEbnSOmvXFv5Li" passHref={true}>
-					<Styled.Button>Lite Paper</Styled.Button>
-				</Link>
+
 				</Styled.RightContainer>
 			</BrowserView>
 			<MobileView>
